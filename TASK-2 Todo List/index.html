@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .container {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .app-title {
+            font-size: 60px;
+            color: #ff9900;
+        }
+
+        .todo-item {
+            background-color: #444;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="empty-state">
+            <h1 class="app-title">My To-Do List</h1>
+            <p class="empty-state__description">
+                Type in the below field 👇 and press enter to add your custom todo in the list
+            </p>
+        </div>
+        <form class="formselect">
+            <input autofocus type="text" class="inputselect" placeholder="Eg: Workout">
+        </form>
+        <ul class="todo-list js-todo-list"></ul>
+    </div>
+    <script src="https://kit.fontawesome.com/fbeb96d655.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
