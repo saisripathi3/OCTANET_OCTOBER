@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background: black;
+    /* edge activity */
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);
+}
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#blue{
+    color: blueviolet;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+.menu a:first-child{
+    border-bottom: 1px solid blueviolet;
+}
+.icons img{
+    width: 100px;
+}
+.container
+{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.left img
+{
+    position: relative;
+    top: -10px;
+    left: 400px;
+    height: 300px;
+    width: 300px;
+    flex-basis: 50%;
+    border-radius:50%;
+}
+.right
+{
+    width: 400px;
+    flex-basis: 50%;
+    position: relative;
+    right: -900px;
+}
+.right p{
+    width: 300px;
+}
+.right h1{
+    color: blueviolet;
+    font-size: 50px;
+    width: 300px;
+}
+.btn
+{
+    background: transparent;
+    padding: 10px 20px;
+    margin: 20px;
+    color: blueviolet;
+    border:1px solid seashell;
+}
+#about
+{
+    /* padding :x-axis y-axis*/
+    padding: 100px 0%;
+}
+.about-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-right-col
+{
+    flex-basis: 50%;
+    text-align: center;
+}
+.about-right-col img{
+    width: 80%;
+}
+.about-left-col{
+    margin: 0px 50px;
+}
+.about-left-col h1{
+    font-size: 180%;
+}
+.about-left-col p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 15px 0px;
+}
+.c-btn{
+    padding: 10px;
+    margin: 10px;
+    width: 80px;
+    height: 50px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+}
+#signup
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(165, 155, 141);
+    margin: 100px 0px;
+    clip-path: polygon(0% 0%,50% 10%,100% 0%,100% 100%,10% 90%,0% 100%);
+}
+.sign-row{
+    display: flex;
+    justify-content: space-around;
+}
+#signup img{
+    height: 400px;
+    width: 500px;
+    margin-left: 0px;
+    flex-basis: 50%;
+    border-radius: 20px;
+}
+#signup .signup-right-col{
+    padding: 100px 0px;
+}
+.signup-right-col h1{
+    font-size: 350%;
+    font-weight: bold;
+}
+.signup-right-col h2{
+    padding: 2px;
+    letter-spacing: 40px;
+}
+.signup-right-col button{
+    margin-top: 70px;
+    height: 50px;
+    width: 100px;
+    background-color: blueviolet;
+    font-size: 20px;
+    border:none;
+    border-radius: 20px;
+}
+.services
+{
+    margin-top: 50px;
+}
+.head1{
+    text-align: center;
+}
+.head1 h1{
+    font-size: 60px;
+}
+.head1 p{
+    font-weight: bold;
+    font-size: 30px;
+}
+.service-row{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-auto-rows: minmax(150px,auto);
+    grid-gap:3em;
+    justify-content: center;
+    padding-top: 8px;
+}
+.service-box
+{
+    box-shadow: 2px 3px 5px grey;
+    padding: 10px;
+    text-align: center;
+}
+.service-box i{
+    background: blueviolet;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: -20px;
+}
+.member{
+    padding: 100px;
+    background-position: top right;
+}
+.row1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.contact{
+    display: flex;
+    position: fixed;
+    top: 700px;
+    right: 10px;
+}
+.contact >li{
+    font-size: 1.2cm;
+            padding: 12px;
+            margin: 12px;
+            cursor: pointer;
+}
